@@ -1,0 +1,20 @@
+{
+  "provider": "openai",
+  "base_url": "http://localhost:8000/v1",
+  "model": "REPLACE_WITH_LOCAL_VISION_MODEL",
+  "api_key_env": "MMAGENT_API_KEY",
+  "output_token_field": "max_tokens",
+  "json_mode": false,
+  "retriever": "dense",
+  "encoder_factory": "mmagent.encoders:http_encoder",
+  "encoder_id": "REPLACE_WITH_IMMUTABLE_CHECKPOINT_ID",
+  "query_encoder_id": "REPLACE_WITH_QUERY_CHECKPOINT_ID",
+  "dense_path": "data/dense-index",
+  "selection": "sample",
+  "candidate_k": 16,
+  "temperature": 0.2,
+  "max_steps": 8,
+  "max_calls": 24,
+  "anchor_images": 2,
+  "seed": 7
+}

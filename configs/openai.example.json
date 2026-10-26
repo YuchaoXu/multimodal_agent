@@ -1,0 +1,15 @@
+{
+  "provider": "openai",
+  "base_url": "https://api.openai.com/v1",
+  "model": "REPLACE_WITH_YOUR_VISION_MODEL",
+  "api_key_env": "MMAGENT_API_KEY",
+  "max_steps": 8,
+  "max_calls": 24,
+  "max_seconds": 900,
+  "candidate_k": 12,
+  "selection": "greedy",
+  "temperature": 1.0,
+  "anchor_images": 2,
+  "retriever": "bm25",
+  "json_mode": true
+}

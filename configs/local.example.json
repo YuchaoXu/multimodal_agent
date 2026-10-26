@@ -1,0 +1,14 @@
+{
+  "provider": "openai",
+  "base_url": "http://localhost:8000/v1",
+  "model": "REPLACE_WITH_LOCAL_VISION_MODEL",
+  "api_key_env": "MMAGENT_API_KEY",
+  "max_steps": 8,
+  "max_calls": 24,
+  "candidate_k": 12,
+  "selection": "sample",
+  "seed": 7,
+  "retriever": "bm25",
+  "json_mode": false,
+  "output_token_field": "max_tokens"
+}

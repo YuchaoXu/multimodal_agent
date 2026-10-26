@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multimodal-evidence-agent"
+version = "0.1.0"
+description = "Frozen visual agent, replaceable state-conditioned retriever, auditable trajectories"
+requires-python = ">=3.10"
+dependencies = ["pypdf>=5,<7", "pypdfium2>=4,<6", "Pillow>=10.1,<13", "numpy>=1.24,<3"]
+
+[project.scripts]
+mmagent = "mmagent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mmagent*"]

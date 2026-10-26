@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "documents": [],
+  "views": [
+    {
+      "id": "demo-report:p1:full",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 1,
+      "region": "full",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "width": 1000,
+      "height": 1300,
+      "image": "images/demo-report-p1-full.png",
+      "image_sha256": "386dc62f1b2b54595b8e464b0761e8bb7e5da5ef6de261ee2246ebb26418fa64",
+      "text": "Project Aurora uses sensor K7. Its performance is documented separately.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p1:top",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 1,
+      "region": "top",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.55
+      ],
+      "width": 1000,
+      "height": 715,
+      "image": "images/demo-report-p1-top.png",
+      "image_sha256": "944c00a3370009dccf1d6dc822f91fde74216dee57fe75a75879be6850364b48",
+      "text": "Project Aurora uses sensor K7. Its performance is documented separately.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p1:bottom",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 1,
+      "region": "bottom",
+      "bbox": [
+        0,
+        0.45,
+        1,
+        1
+      ],
+      "width": 1000,
+      "height": 715,
+      "image": "images/demo-report-p1-bottom.png",
+      "image_sha256": "e586ed358baa387a3ea55abc5af89b09cc4e74a26bc9b5fec1b037ee7311408b",
+      "text": "Project Aurora uses sensor K7. Its performance is documented separately.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p2:full",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 2,
+      "region": "full",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "width": 1000,
+      "height": 1300,
+      "image": "images/demo-report-p2-full.png",
+      "image_sha256": "5e4bb0b2fb32179d6c92caf1ab49b028e468df7f62b5142c3b31a1826a812dff",
+      "text": "K7 sensor efficiency table: 2024 = 60%; 2025 = 75%. Change = 15 percentage points.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p2:top",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 2,
+      "region": "top",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.55
+      ],
+      "width": 1000,
+      "height": 715,
+      "image": "images/demo-report-p2-top.png",
+      "image_sha256": "c9a393d529b677a0787b868b6cb0f730ea6483047cd787f13591407438ca930a",
+      "text": "K7 sensor efficiency table: 2024 = 60%; 2025 = 75%. Change = 15 percentage points.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p2:bottom",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 2,
+      "region": "bottom",
+      "bbox": [
+        0,
+        0.45,
+        1,
+        1
+      ],
+      "width": 1000,
+      "height": 715,
+      "image": "images/demo-report-p2-bottom.png",
+      "image_sha256": "e586ed358baa387a3ea55abc5af89b09cc4e74a26bc9b5fec1b037ee7311408b",
+      "text": "K7 sensor efficiency table: 2024 = 60%; 2025 = 75%. Change = 15 percentage points.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p3:full",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 3,
+      "region": "full",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "width": 1000,
+      "height": 1300,
+      "image": "images/demo-report-p3-full.png",
+      "image_sha256": "ceeaaf0641551f2a74ca2365d3065dca025c1ed564b89430a26259dc3929a6ff",
+      "text": "Other sensors: M2 measures temperature. This page is unrelated to Aurora efficiency.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p3:top",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 3,
+      "region": "top",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.55
+      ],
+      "width": 1000,
+      "height": 715,
+      "image": "images/demo-report-p3-top.png",
+      "image_sha256": "75cce7c89b06e0d058c13760e79153a6a3272b5e7c5e2ab719b0aa7774344577",
+      "text": "Other sensors: M2 measures temperature. This page is unrelated to Aurora efficiency.",
+      "text_scope": "page_context"
+    },
+    {
+      "id": "demo-report:p3:bottom",
+      "doc_id": "demo-report",
+      "source": "demo-report",
+      "page": 3,
+      "region": "bottom",
+      "bbox": [
+        0,
+        0.45,
+        1,
+        1
+      ],
+      "width": 1000,
+      "height": 715,
+      "image": "images/demo-report-p3-bottom.png",
+      "image_sha256": "e586ed358baa387a3ea55abc5af89b09cc4e74a26bc9b5fec1b037ee7311408b",
+      "text": "Other sensors: M2 measures temperature. This page is unrelated to Aurora efficiency.",
+      "text_scope": "page_context"
+    }
+  ],
+  "fingerprint": "68d9bd28417bbd2b8b1a7a4d3cf6ae2bb932b6f5cb2ff95fa6f2aba0716e3c6b",
+  "synthetic_demo": true
+}
